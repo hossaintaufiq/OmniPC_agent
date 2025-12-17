@@ -1,224 +1,72 @@
-🤝 Contributing to OmniPC Agent
+# 🤝 Contributing to OmniPC Agent
 
-First of all — thank you for your interest in contributing!
-OmniPC Agent is a community-driven, learning-focused AI agent project, and every contribution matters.
+Thank you for your interest in contributing to **OmniPC Agent**!  
+This project is built **in public**, for learning, experimentation, and collaboration.
 
-This guide explains how to contribute, what is expected, and how we work together.
+Everyone is welcome.
 
-🌟 Who Can Contribute?
+---
 
-Everyone is welcome:
+## 🌟 Who Can Contribute?
 
-Beginners
+You can contribute if you are:
+- A beginner
+- A student
+- A researcher
+- A developer
+- A designer
+- An AI or automation enthusiast
 
-Students
+You **do not need to be an expert**.  
+Willingness to learn and collaborate is enough.
 
-Researchers
+---
 
-Developers
+## 📌 Ways to Contribute
 
-Designers
+You can help the project in many ways:
 
-AI enthusiasts
+### 🧠 Ideas & Research
+- Suggest new features
+- Improve system architecture
+- Share research papers, tools, or ideas
 
-You do not need to be an expert.
-Curiosity, consistency, and respect matter more than experience.
+### 💻 Code Contributions
+- Core AI agent logic
+- Multi-LLM orchestration
+- Automation tools
+- Desktop or mobile app features
 
-📌 Ways You Can Contribute
+### 📝 Documentation
+- Improve README
+- Write setup guides
+- Add code comments
+- Create examples or tutorials
 
-You can help in many ways:
+### 🎨 UI / UX
+- Improve app design
+- User flow suggestions
+- Accessibility improvements
 
-🧠 Ideas & Discussions
+### 🧪 Testing & Feedback
+- Bug reports
+- Performance testing
+- Edge-case testing
 
-Suggest features
+---
 
-Improve system design
+## 🛠️ Getting Started
 
-Share research or tools
-
-💻 Code
-
-Core agent logic
-
-LLM integrations
-
-Automation tools
-
-Desktop or mobile UI
-
-📝 Documentation
-
-Improve README
-
-Write tutorials
-
-Add comments
-
-Create examples
-
-🎨 UI / UX
-
-App layout
-
-User flow
-
-Design improvements
-
-🧪 Testing
-
-Bug reports
-
-Edge-case testing
-
-Performance testing
-
-🛠️ Getting Started
-1️⃣ Get Access
-
+### 1️⃣ Get Access
 This is a collaborative project.
 
-📩 DM the project owner to get:
+📩 **DM the project owner** to get:
+- GitHub contribution access
+- Initial guidance
 
-GitHub access
+---
 
-Contributor role
-
-Initial guidance
-
-2️⃣ Set Up the Project Locally
+### 2️⃣ Clone the Repository
+```bash
 git clone https://github.com/<your-org>/omnipc-agent.git
 cd omnipc-agent
-
-
-Follow setup instructions in the README.
-
-3️⃣ Pick Something to Work On
-
-Check Issues
-
-Look for tags like:
-
-good first issue
-
-help wanted
-
-documentation
-
-If you’re unsure, ask in discussions or DM.
-
-🌱 Contribution Workflow
-
-Create a new branch
-
-git checkout -b feature/your-feature-name
-
-
-Make your changes
-
-Keep changes focused
-
-Write clean, readable code
-
-Add comments if needed
-
-Commit your work
-
-git commit -m "Add: short description of change"
-
-
-Push your branch
-
-git push origin feature/your-feature-name
-
-
-Open a Pull Request (PR)
-
-📏 Contribution Rules
-
-Keep PRs small and focused
-
-One feature or fix per PR
-
-Follow existing code style
-
-Do not push directly to main
-
-Be respectful in reviews
-
-🧠 Code Style Guidelines
-
-Use meaningful variable names
-
-Add comments for complex logic
-
-Keep functions small
-
-Prefer readability over clever tricks
-
-🔒 Safety & Ethics
-
-Because this project deals with system-level automation:
-
-Do not add hidden behaviors
-
-Do not bypass user permissions
-
-Clearly explain what your code does
-
-Follow ethical AI principles
-
-Any unsafe or malicious code will be rejected.
-
-🧪 Testing
-
-Before submitting:
-
-Test your feature locally
-
-Ensure it doesn’t break existing features
-
-Add basic test cases if possible
-
-💬 Communication
-
-Be kind and respectful
-
-Ask questions freely
-
-Help others when you can
-
-Disagreements are fine — disrespect is not
-
-⚠️ Important Notes
-
-This is an experimental project
-
-Not production-ready
-
-Things may change quickly
-
-Learning > perfection
-
-❤️ Our Values
-
-Open learning
-
-Collaboration
-
-Transparency
-
-Respect
-
-Fun while building
-
-📬 Need Help?
-
-If you’re stuck:
-
-Open a discussion
-
-Comment on an issue
-
-DM the project owner
-
-We’re building this together 🚀
