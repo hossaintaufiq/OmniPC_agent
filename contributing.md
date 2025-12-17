@@ -1,72 +1,36 @@
 # 🤝 Contributing to OmniPC Agent
 
-Thank you for your interest in contributing to **OmniPC Agent**!  
-This project is built **in public**, for learning, experimentation, and collaboration.
-
-Everyone is welcome.
+Thank you for your interest in contributing to OmniPC Agent! This project is **open, beginner-friendly, and community-driven**.
 
 ---
 
 ## 🌟 Who Can Contribute?
+* Beginners
+* Students
+* Developers
+* Researchers
+* Designers
+* AI enthusiasts
 
-You can contribute if you are:
-- A beginner
-- A student
-- A researcher
-- A developer
-- A designer
-- An AI or automation enthusiast
-
-You **do not need to be an expert**.  
-Willingness to learn and collaborate is enough.
+You don’t need to be an expert.
 
 ---
 
 ## 📌 Ways to Contribute
-
-You can help the project in many ways:
-
-### 🧠 Ideas & Research
-- Suggest new features
-- Improve system architecture
-- Share research papers, tools, or ideas
-
-### 💻 Code Contributions
-- Core AI agent logic
-- Multi-LLM orchestration
-- Automation tools
-- Desktop or mobile app features
-
-### 📝 Documentation
-- Improve README
-- Write setup guides
-- Add code comments
-- Create examples or tutorials
-
-### 🎨 UI / UX
-- Improve app design
-- User flow suggestions
-- Accessibility improvements
-
-### 🧪 Testing & Feedback
-- Bug reports
-- Performance testing
-- Edge-case testing
+* **Code:** Agent logic, UI, and tools.
+* **Documentation:** Improving guides or fixing typos.
+* **Research & Ideas:** Proposing new capabilities.
+* **Testing:** Finding and reporting bugs.
+* **UI/UX:** Improving the look and feel.
 
 ---
 
 ## 🛠️ Getting Started
 
-### 1️⃣ Get Access
-This is a collaborative project.
+### 1. Get Access
+DM the project owner for GitHub contribution access.
 
-📩 **DM the project owner** to get:
-- GitHub contribution access
-- Initial guidance
-
----
-
-### 2️⃣ Clone the Repository
+### 2. Clone the Repo
 ```bash
-git clone https://github.com/<your-org>/omnipc-agent.git
+git clone https://github.com/hossaintaufiq/OmniPC_agent
 cd omnipc-agent

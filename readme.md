@@ -1,277 +1,121 @@
 # 🤖 OmniPC Agent
-### An AI Agent That Can Use a Computer Like a Human
 
-OmniPC Agent is an **open-source, multi-LLM AI agent** designed to run on **personal computers and laptops**.  
-The goal of this project is to build an AI system that can **understand human instructions, plan actions, and operate a computer** safely and transparently.
+### A Multi-LLM AI Agent That Can Use a Computer Like a Human
 
-This project is **experimental**, **community-driven**, and built **in public** for learning and research.
+OmniPC Agent is an **open-source AI agent for personal computers and laptops**.  
+It is designed to understand human instructions, plan actions, and safely operate a computer — similar to how a human would.
 
----
-
-## 📌 What Problem Does This Solve?
-
-Most AI assistants today can only **chat**.
-
-OmniPC Agent goes a step further:
-- It can **think**
-- It can **plan**
-- It can **act on a computer**
-
-Just like a human user — but **always with permission**.
+This project is **experimental**, **community-driven**, and built **in public** for learning, research, and fun.
 
 ---
 
-## 🧠 Core Concept (Simple Explanation)
-User Instruction
-↓
-Desktop App (Agent Interface)
-↓
-Agent Brain (Planning & Memory)
-↓
-Multiple AI Models (LLMs)
-↓
-Tools (Browser, Files, Apps)
-↓
-Operating System (Your PC)
+## 🌟 Project Vision
 
-
-
-The agent:
-1. Understands what the user wants
-2. Breaks the task into steps
-3. Uses the best AI model for reasoning
-4. Executes actions through tools
-5. Shows everything it does
+> Build an AI agent that can **think, plan, and act on a PC**, using multiple AI models, while keeping humans in full control.
 
 ---
 
-## 🤖 Why Multiple LLMs?
+## ❓ What Makes OmniPC Agent Different?
 
-Different models are good at different tasks.
+Most AI tools only chat.  
+OmniPC Agent can:
 
-OmniPC Agent supports:
+- Understand complex tasks
+- Break them into steps
+- Choose the best AI model for reasoning
+- Interact with files, browsers, and apps
+- Show and explain every action it takes
+
+---
+
+## 🧠 Multi-LLM Powered
+
+The agent combines multiple Large Language Models (LLMs):
+
 - GPT
 - Gemini
 - Grok
 - DeepSeek
 
-The agent:
-- Selects the best model per task
-- Cross-checks outputs
-- Uses fallbacks if one model fails
-
-This makes the system **more reliable and flexible**.
+The agent intelligently:
+- Routes tasks to the best model
+- Cross-checks responses
+- Uses fallback mechanisms
 
 ---
 
-## 🧩 System Architecture
-
-## 🏗️ System Architecture
-
-```text
-┌──────────────────────────────┐
-│            USER              │
-│  (Text / Voice Instruction)  │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│     DESKTOP APPLICATION      │
-│  (Electron / Tauri UI)       │
-│                              │
-│  • Input Interface           │
-│  • Permission Manager        │
-│  • Action Visualization      │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│        AGENT CORE             │
-│------------------------------│
-│ • Task Parser                │
-│ • Goal Decomposer            │
-│ • Planner (Step-by-Step)     │
-│ • Execution Validator        │
-│ • Safety & Policy Layer      │
-│ • Short / Long-Term Memory   │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌────────────────────────────────────────┐
-│        MULTI-LLM ORCHESTRATOR           │
-│----------------------------------------│
-│ • Model Selection Logic                │
-│ • Prompt Router                        │
-│ • Response Aggregator                  │
-│ • Fallback & Retry System              │
-│                                        │
-│   ┌──────┐ ┌────────┐ ┌──────┐ ┌──────┐│
-│   │ GPT  │ │ Gemini │ │ Grok │ │ Deep ││
-│   │      │ │        │ │      │ │ Seek ││
-│   └──────┘ └────────┘ └──────┘ └──────┘│
-└───────────────┬────────────────────────┘
-                │
-                ▼
-┌────────────────────────────────────────┐
-│        TOOL & ACTION LAYER              │
-│----------------------------------------│
-│ • File System Operations               │
-│ • Browser Automation                   │
-│ • Application Control                  │
-│ • Keyboard / Mouse Simulation          │
-│ • OS Commands & Scripts                │
-│ • External APIs                        │
-└───────────────┬────────────────────────┘
-                │
-                ▼
-┌────────────────────────────────────────┐
-│     OPERATING SYSTEM (USER PC)          │
-│----------------------------------------│
-│ Windows | macOS | Linux                │
-│                                           
-│ • Files                                │
-│ • Applications                         │
-│ • Network                              │
-│ • Hardware                             │
-└────────────────────────────────────────┘
+## 🏗️ High-Level Workflow
+User → Desktop App → Agent Brain → LLMs → Tools → OS
 
 
-
-## 🛠️ Main Components
-
-### Desktop Application
-- Cross-platform
-- Takes user input
-- Displays agent actions
-- Requests permission for sensitive operations
-
-### Agent Core
-- Parses tasks
-- Plans steps
-- Stores memory
-- Handles failures safely
-
-### Multi-LLM Controller
-- Routes tasks to AI models
-- Combines responses
-- Ensures reliability
-
-### Tool Layer
-- Interacts with OS
-- Controls files, browser, apps
-- Executes scripts and commands
+Everything runs with **explicit user permission**.
 
 ---
 
-## 🔐 Safety & Control
+## 🧩 Main Components
 
-OmniPC Agent follows **strict safety rules**:
+- **Desktop Application**  
+  User interface, permissions, action visualization
 
-- No silent actions
-- No background execution without approval
-- User confirmation for system-level actions
-- Full transparency of agent behavior
+- **Agent Core**  
+  Task understanding, planning, memory, safety
+
+- **Multi-LLM Orchestrator**  
+  Model selection, response aggregation
+
+- **Tool Layer**  
+  File system, browser automation, app control
 
 ---
 
-## 🧪 Use Cases
+## 🔐 Safety Principles
 
-- Task automation
-- File organization
-- Research assistance
-- Coding support
-- Repetitive workflow automation
-- Learning and experimentation
+- Human-in-the-loop by default
+- No hidden actions
+- Permission-based execution
+- Transparent logs
 
 ---
 
 ## 🛠️ Tech Stack (Planned)
 
-### Frontend
+**Frontend**
 - Electron / Tauri
 - React
 
-### Backend / Core
+**Backend / Core**
 - Python
 - Node.js
-- FastAPI (optional)
 
-### AI & Automation
+**AI & Automation**
 - OpenAI API
 - Gemini API
-- Grok API
 - DeepSeek API
 - Playwright / Selenium
-
-### Memory
-- Local storage
-- Vector databases (FAISS / Chroma)
 
 ---
 
 ## 🗺️ Roadmap
 
-### Phase 1 — Foundation
-- Basic desktop app
-- Single-task execution
-- LLM integration
-
-### Phase 2 — Intelligence
-- Task planning
-- Memory support
-- Error handling
-
-### Phase 3 — Automation
-- Browser automation
-- File & app control
-- Tool chaining
-
-### Phase 4 — Expansion
-- Mobile companion app
-- Plugin system
-- Cross-platform stability
+**Phase 1** – Core agent & UI  
+**Phase 2** – Planning & memory  
+**Phase 3** – Real automation  
+**Phase 4** – Mobile companion & plugins
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-This project is **open and beginner-friendly**.
-
-Anyone can contribute:
-- Students
-- Developers
-- Researchers
-- Designers
-- AI enthusiasts
-
+Everyone is welcome.  
 Please read `CONTRIBUTING.md` before contributing.
 
 ---
 
 ## ⚠️ Disclaimer
 
-- This project is experimental
-- Not production-ready
-- Use at your own risk
-- For learning and research purposes only
+This project is experimental and not production-ready.  
+Use responsibly.
 
 ---
 
-## ❤️ Project Philosophy
-
-> Build openly  
-> Learn continuously  
-> Collaborate respectfully  
-
----
-
-## 📬 Contact
-
-Interested in contributing?
-
-📩 **DM the project owner for GitHub access**
-
----
-
-🚀 Let’s build the future of personal AI agents together.
-
+🚀 Let’s build personal AI agents together.
